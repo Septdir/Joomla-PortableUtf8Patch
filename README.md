@@ -1,0 +1,1 @@
+# Joomla-PortableUtf8Patch
