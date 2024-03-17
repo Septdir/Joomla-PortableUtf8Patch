@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade">
+	<name>PLG_SYSTEM_PORTABLEUTF8PATCH</name>
+	<author>Igor Berdichevskiy</author>
+	<creationDate>March 2024</creationDate>
+	<copyright>Copyright (c) 2013 - 2018 Igor Berdicheskiy. All rights reserved.</copyright>
+	<license>https://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>septdir@gmail.com</authorEmail>
+	<authorUrl>https://septdir.ru</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_SYSTEM_PORTABLEUTF8PATCH_DESCRIPTION</description>
+	<namespace path="src">Joomla\Plugin\System\PortableUtf8Patch</namespace>
+	<scriptfile>script.php</scriptfile>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/plg_system_portableutf8patch.ini</language>
+		<language tag="en-GB">en-GB/plg_system_portableutf8patch.sys.ini</language>
+		<language tag="ru-RU">ru-RU/plg_system_portableutf8patch.ini</language>
+		<language tag="ru-RU">ru-RU/plg_system_portableutf8patch.sys.ini</language>
+	</languages>
+	<files>
+		<folder>services</folder>
+		<folder plugin="portableutf8patch">src</folder>
+	</files>
+</extension>
